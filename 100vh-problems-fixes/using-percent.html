@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Fixing extra scrollbar for 100vh using 100% instead</title>
+    
+    <style type="text/css">
+      html, body {
+        min-height: 100%;
+      }
+      * {
+        margin:0;
+      }
+    </style>
+</head>
+<body>
+  <p>We can use  <code>min-height:100%;</code> instead of <code>min-height:100vh;</code> to solve the scrollbar problem:</p>
+  
+  <pre>
+    html, body {
+      min-height: 100%;
+    }
+  </pre>
+  
+  <p>Inshaallah this should work like a charm!</p>
+
+</body>
+</html>
