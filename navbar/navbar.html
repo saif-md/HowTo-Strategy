@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Navbar</title>
+
+    <link rel="stylesheet" href="navbar.css">
+    <script src="https://kit.fontawesome.com/01ffc02d45.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav class="navbar">
+        <span class="navbar-toggle" id="js-navbar-toggle">
+            <i class="fas fa-bars"></i>
+        </span>
+        <a href="#" class="logo">Logo</a>
+        <ul class="main-nav" id="js-menu">
+            <li>
+                <a href="#" class="nav-links">Home</a>
+            </li>
+            <li>
+                <a href="#" class="nav-links">Products</a>
+            </li>
+            <li>
+                <a href="#" class="nav-links">About Us</a>
+            </li>
+            <li>
+                <a href="#" class="nav-links">Contact Us</a>
+            </li>
+            <li>
+                <a href="#" class="nav-links">Blog</a>
+            </li>
+        </ul>
+    </nav>
+
+    <script>
+        let mainNav = document.getElementById('js-menu');
+        let navBarToggle = document.getElementById('js-navbar-toggle');
+
+        navBarToggle.addEventListener('click', function () {
+            
+            mainNav.classList.toggle('active');
+        });
+    </script>
+    
+</body>
+</html>
