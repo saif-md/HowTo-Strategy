@@ -79,9 +79,8 @@
     margin-top: 0;
   }
 
-  .logo:hover,
-    .nav-links:hover {
-        color: rgba(255, 255, 255, 1);
-    }
+  .logo:hover, .nav-links:hover {
+      color: rgba(255, 255, 255, 1);
+  }
 
 }

@@ -1,0 +1,27 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+  color: azure;
+}
+
+header, footer {
+  height: 40px;
+  padding: 4px;
+  background-color: darkgoldenrod;
+}
+
+main {
+  flex: 1 0 0;
+  background-color: #1F2119;
+  padding: 20px;
+}
